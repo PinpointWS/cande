@@ -2,13 +2,27 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { BeforeandafterComponent } from "./beforeandafter/beforeandafter.component";
+import { MainpageComponent } from "./mainpage/mainpage.component";
+import { ContactComponent } from "./contact/contact.component";
+import { MeetthedoctorsComponent } from "./meetthedoctors/meetthedoctors.component";
+import { MakeAPaymentComponent } from "./make-a-payment/make-a-payment.component";
+import { NavComponent } from "./core/nav.component";
+import { AppRoutingModule } from "./app-routing.module";
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavComponent,
+    BeforeandafterComponent,
+    MainpageComponent,
+    ContactComponent,
+    MeetthedoctorsComponent,
+    MakeAPaymentComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
