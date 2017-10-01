@@ -8,6 +8,7 @@ import { ContactComponent } from "./contact/contact.component";
 import { MeetthedoctorsComponent } from "./meetthedoctors/meetthedoctors.component";
 import { MakeAPaymentComponent } from "./make-a-payment/make-a-payment.component";
 import { NavComponent } from "./core/nav.component";
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from "./app-routing.module";
 
 @NgModule({
@@ -22,6 +23,7 @@ import { AppRoutingModule } from "./app-routing.module";
   ],
   imports: [
     BrowserModule,
+    NgbModule.forRoot(),
     AppRoutingModule
   ],
   providers: [],
