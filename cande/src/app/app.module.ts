@@ -8,13 +8,16 @@ import { ContactComponent } from "./contact/contact.component";
 import { MeetthedoctorsComponent } from "./meetthedoctors/meetthedoctors.component";
 import { MakeAPaymentComponent } from "./make-a-payment/make-a-payment.component";
 import { NavComponent } from "./core/nav.component";
+
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from "./app-routing.module";
+import { FooterComponent } from "./core/footer/footer.component";
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
+    FooterComponent,
     BeforeandafterComponent,
     MainpageComponent,
     ContactComponent,
