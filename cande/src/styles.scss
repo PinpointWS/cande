@@ -1,3 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
 @import 'styles/variables';
 @import '~bootstrap/scss/bootstrap';
+
+.footer{
+	background-color: #70193D;
+	color: white;
+	width: 100%;
+
+}
+.footer a{	
+	color: white;
+}
+.footer p{	
+	font-family: 'PT Serif', serif;
+	font-size: .85em;
+	line-height: 1.4em;
+}
