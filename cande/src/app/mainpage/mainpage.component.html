@@ -14,16 +14,22 @@
 			<ngb-carousel>
 			  <ng-template ngbSlide>
 			    <img src="assets/img/banner.jpg?r=1" alt="Random first slide">
-			    <div class="carousel-caption">
-			      <h3>First slide label</h3>
-			      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+			    <div class="carousel-caption bg-info">
+			      <h3>{{title1}}</h3>
+			      <blockquote class="blockquote">
+				  <p class="mb-0">{{review1}}</p>
+				  <footer class="blockquote-footer text-white"><cite title="Source Title">{{name1}}</cite></footer>
+				  </blockquote>			      
 			    </div>
 			  </ng-template>
 			  <ng-template ngbSlide>
 			    <img src="https://lorempixel.com/900/500?r=2" alt="Random second slide">
-			    <div class="carousel-caption">
-			      <h3>Second slide label</h3>
-			      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			    <div class="carousel-caption  bg-info">
+			      <h3>{{title2}}</h3>
+			      <blockquote class="blockquote">
+				  <p class="mb-0">{{review2}}</p>
+				  <footer class="blockquote-footer text-white"><cite title="Source Title">{{name2}}</cite></footer>
+				  </blockquote>
 			    </div>
 			  </ng-template>
 			  <ng-template ngbSlide>
