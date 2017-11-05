@@ -13,6 +13,7 @@ import { NavComponent } from "./core/nav.component";
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from "./app-routing.module";
 import { FooterComponent } from "./core/footer/footer.component";
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { FooterComponent } from "./core/footer/footer.component";
     MainpageComponent,
     ContactComponent,
     MeetthedoctorsComponent,
-    MakeAPaymentComponent
+    MakeAPaymentComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

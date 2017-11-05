@@ -5,17 +5,19 @@ import { MakeAPaymentComponent } from './make-a-payment/make-a-payment.component
 import { MeetthedoctorsComponent } from './meetthedoctors/meetthedoctors.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { HomeComponent } from "./home/home.component";
 
 
 
 const appRoutes: Routes = [
   { path: 'beforeandafter', component: BeforeandafterComponent },
   { path: 'main', component: MainpageComponent },
+  { path: 'home', component: HomeComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'doctors', component: MeetthedoctorsComponent },
   { path: 'payments', component: MakeAPaymentComponent },
-  { path: '',   component: MainpageComponent  },
-  { path: '**', component: MainpageComponent }
+  { path: '',   component: HomeComponent  },
+  { path: '**', component: HomeComponent }
 
 ];
 

@@ -18,6 +18,7 @@ export class MainpageComponent implements OnInit {
     title2;
     name2;
     review2;
+        
   constructor(private http: HttpClient) { }
 
   ngOnInit() {
