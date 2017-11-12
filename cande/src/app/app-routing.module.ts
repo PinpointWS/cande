@@ -11,7 +11,7 @@ import { HomeComponent } from "./home/home.component";
 
 const appRoutes: Routes = [
   { path: 'beforeandafter', component: BeforeandafterComponent },
-  { path: 'main', component: MainpageComponent },
+  { path: 'main', component: HomeComponent },
   { path: 'home', component: HomeComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'doctors', component: MeetthedoctorsComponent },

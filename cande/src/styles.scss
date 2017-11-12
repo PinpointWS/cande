@@ -3,7 +3,7 @@
 @import '~bootstrap/scss/bootstrap';
 
 .footer{
-	background-color: #70193D;
+	background-color: #463B34;
 	color: white;
 	width: 100%;
 
@@ -24,6 +24,7 @@ html, body {
 body {
   font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding-top:50px;
+  color:#463B34;
 }
 
 
@@ -155,4 +156,16 @@ hr.small {
 
 .map iframe {
   pointer-events: none;
+}
+
+.bg-brown {
+	background-color: #463B34;
+}
+
+.bg-baby-blue {
+	background-color: #9ec0d8;
+}
+
+.text-baby-blue {
+	color: #9ec0d8;
 }
