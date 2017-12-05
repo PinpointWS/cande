@@ -14,6 +14,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from "./app-routing.module";
 import { FooterComponent } from "./core/footer/footer.component";
 import { HomeComponent } from './home/home.component';
+import { ServicesComponent } from "./services-page/services.component";
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { HomeComponent } from './home/home.component';
     ContactComponent,
     MeetthedoctorsComponent,
     MakeAPaymentComponent,
-    HomeComponent
+    HomeComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,

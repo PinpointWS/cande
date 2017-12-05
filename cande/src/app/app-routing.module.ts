@@ -6,6 +6,7 @@ import { MeetthedoctorsComponent } from './meetthedoctors/meetthedoctors.compone
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from "./home/home.component";
+import { ServicesComponent } from "./services-page/services.component";
 
 
 
@@ -16,6 +17,7 @@ const appRoutes: Routes = [
   { path: 'contact', component: ContactComponent },
   { path: 'doctors', component: MeetthedoctorsComponent },
   { path: 'payments', component: MakeAPaymentComponent },
+  { path: 'services', component: ServicesComponent },
   { path: '',   component: HomeComponent  },
   { path: '**', component: HomeComponent }
 

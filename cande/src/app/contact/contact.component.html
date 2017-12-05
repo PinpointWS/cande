@@ -1,7 +1,143 @@
 
-<div class="container">
+<div class="container top-margin">
 	<div class="col-sm-12">
-		<h2>Contact Us</h2>
+		<h1>Contact Us</h1>
 	</div>
+	
+	                     
+        <p>Please fill out all required(<span class="required">*</span>) form below and click "submit."</p>
+          <div class="controls">
+    <form id="contact-form" method="post" action="contact.php" role="form">
 
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="form_name">Name <span class="text-danger">*</span></label>
+                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your name *" required="required" data-error="Firstname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="form_lastname">Address</label>
+                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your address" required="required" data-error="Lastname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="form_name">City</label>
+                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your city" required="required" data-error="Firstname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="form_lastname">State</label>
+                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your state" required="required" data-error="Lastname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="form_email">Zip</label>
+                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your zip" required="required" data-error="Valid email is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="form_phone">Phone <span class="text-danger">*</span></label>
+                    <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone *">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="form_name">Email Address <span class="text-danger">*</span></label>
+                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your email address *" required="required" data-error="Firstname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="form_lastname">Method of Contact</label>
+                     <select class="form-control" placeholder="--Select--">
+					  <option value="volvo">-- Select --</option>
+					  <option value="volvo">Phone</option>
+					  <option value="saab">E-Mail</option>
+					</select> 
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="form_name">Preferred Appointment Time</label>
+                     <select class="form-control" placeholder="--Select--">
+					  <option value="volvo">-- Select --</option>
+					  <option value="volvo">Morning</option>
+					  <option value="saab">Afternoon</option>
+					</select> 
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                 	
+                    <label for="form_lastname">Preferred Appointment Date</label>
+                  <div class="input-group">
+                    <input class="form-control" placeholder="yyyy-mm-dd" name="dp"  ngbDatepicker #d="ngbDatepicker">
+			    
+			      <button class="input-group-addon" (click)="d.toggle()" type="button">
+			        <i class="fa fa-calendar-o" aria-hidden="true"></i>			        
+			      </button>
+                  </div>
+                    <div class="help-block with-errors"></div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="row">
+            <div class="col-md-8">
+                <div class="form-group">
+                    <label for="form_message">Comments/Questions</label>
+                    <textarea id="form_message" name="message" class="form-control" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-12">
+			<p>
+                <strong>Privacy Statement:</strong>
+                </p>
+                <p>
+				The information which you give in completing this form will be forwarded to the designated party for its use and will not be used by YELLOWPAGES.COM from BellSouth TM for any other purpose or provided by us to any other parties. If you wish information concerning the privacy policy or the designated recipient, you should contact them directly. 
+			</p>
+            </div>
+            
+            <div class="col-md-12">
+                <input type="submit" class="btn btn-success btn-send" value="Send message">
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <p class="text-muted"><strong class="text-danger">*</strong> These fields are required.</p>
+            </div>
+        </div>
+   
+
+</form>
 </div>
