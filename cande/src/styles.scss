@@ -173,3 +173,15 @@ hr.small {
 .text-baby-blue {
 	color: #9ec0d8;
 }
+
+ .affix {
+      top: 20px;
+      z-index: 9999 !important;
+ }
+ 
+ #mymenu {
+    position: fixed;    
+    top: 20%;
+    left: 10px;    
+    border: 2px solid #463B34;
+}
